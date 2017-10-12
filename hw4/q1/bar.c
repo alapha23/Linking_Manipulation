@@ -1,6 +1,5 @@
 #include <stdio.h>
 
 void do_bar(void){
-
-	printf("HelloWorld\n");
+	printf("This is bar\n");
 }
