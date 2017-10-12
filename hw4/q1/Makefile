@@ -15,4 +15,4 @@ foo_dep2.o: foo_dep2.c
 bar.o: bar.c bar_dep1.c bar_dep2.c
 	$(CC) -c bar.c bar.h bar_dep1.c bar_dep2.c
 clean:
-	rm *o main
+	rm *o main *.gch
