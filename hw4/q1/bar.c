@@ -1,5 +1,9 @@
 #include <stdio.h>
+#include "bar.h"
 
-void do_bar(void){
-	printf("This is bar\n");
+int main(){
+	bar_dep1();
+	bar_dep2();
+	return 0;
 }
+
